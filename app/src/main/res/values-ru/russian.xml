@@ -6,4 +6,6 @@
     <string name="enter_your_email">Адрес Email</string>
     <string name="enter_subject">Описание Письма</string>
     <string name="enter_message_text">Текст Письма</string>
+    <string name="please_fill_all_fields">Заполните все поля</string>
+    <string name="there_is_no_mail_app">Соответствующее приложение отсутствует</string>
 </resources>
