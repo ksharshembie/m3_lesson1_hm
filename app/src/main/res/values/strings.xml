@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="send">Send</string>
+    <string name="next">Next</string>
+    <string name="enter_your_email">E-mail address</string>
+    <string name="enter_subject">Mail Header</string>
+    <string name="enter_message_text">Mail Text</string>
+    <string name="please_fill_all_fields">Please fill all fields</string>
+    <string name="there_is_no_mail_app">There is no mail application</string>
+</resources>

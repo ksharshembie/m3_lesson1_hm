@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Намерения</string>
+    <string name="send">Отправить</string>
+    <string name="next">Следующий</string>
+    <string name="enter_your_email">Адрес Email</string>
+    <string name="enter_subject">Описание Письма</string>
+    <string name="enter_message_text">Текст Письма</string>
+</resources>

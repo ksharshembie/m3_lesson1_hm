@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/target_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginTop="64dp"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/bg_edittext"
+        android:drawableStart="@drawable/ic_email"
+        android:drawableTint="@color/gray"
+        android:gravity="center"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="@dimen/paddingHorizontal"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/subject_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_edittext"
+        android:drawableStart="@drawable/ic_subject"
+        android:drawableTint="@color/gray"
+        android:gravity="center"
+        android:hint="@string/enter_subject"
+        android:inputType="textEmailSubject"
+        android:paddingHorizontal="@dimen/paddingHorizontal"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_message_text"
+        android:drawableStart="@drawable/ic_message"
+        android:drawableTint="@color/purple_200"
+        android:gravity="center"
+        android:hint="@string/enter_message_text"
+        android:inputType="textMultiLine"
+        android:paddingHorizontal="@dimen/paddingHorizontal"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bd_button"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginTop="64dp"
+        android:text="@string/send"
+        android:textAllCaps="true" />
+
+
+</LinearLayout>
